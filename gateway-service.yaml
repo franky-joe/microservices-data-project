@@ -17,15 +17,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: student-service
-          uri: lb://student-service
+        - id: acopio_data
+          uri: lb://acopio_data
           predicates:
-            - Path=/student/**
-        - id: book-service
-          uri: lb://book-service
-          predicates:
-            - Path=/book/**
-        - id: pet-service
-          uri: lb://pet-service
-          predicates:
-            - Path=/pet/**
+            - Path=/acopio_data/**
+       
