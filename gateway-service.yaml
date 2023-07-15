@@ -28,7 +28,7 @@ spring:
           uri: lb://facil
           predicates:
             - Path=/facil/**
-	- id: intermedio
+        - id: intermedio
           uri: lb://intermedio
           predicates:
             - Path=/intermedio/**
