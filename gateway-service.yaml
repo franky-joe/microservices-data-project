@@ -28,11 +28,4 @@ spring:
           uri: lb://facil
           predicates:
             - Path=/facil/**
-	 id: intermedio
-          uri: lb://intermedio
-          predicates:
-            - Path=/intermedio/**
-	 id: avanzado
-          uri: lb://avanzado
-          predicates:
-            - Path=/avanzado/**
+	
