@@ -28,4 +28,3 @@ spring:
           uri: lb://facil
           predicates:
             - Path=/facil/**
-	
